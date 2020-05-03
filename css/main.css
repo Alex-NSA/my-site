@@ -1,0 +1,247 @@
+ul, ol, p, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  font-family: Playfair Display, serif;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 47px;
+  letter-spacing: 1px;
+}
+h2 {
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+h3 {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h4 {
+  font-family: Playfair Display, serif;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+}
+p {
+  font-size: 14px;
+  line-height: 21px;
+}
+ /* -------- HEADER ------- */
+
+header {
+  padding: 60px 0 45px 0;
+}
+header h1 {
+  margin-bottom: 45px;
+  color: #000;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menu li {
+  margin-right: 47px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  letter-spacing: 2px;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+.menu a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+
+.menu {
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+/* -------------------- */
+
+.hotel_section {
+  background-image: url("../img/Hotel.jpg" );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 45px;
+  padding-bottom: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hotel_section img {
+  margin-bottom: 32px;
+}
+.hotel_section h2 {
+  color: #FFFFFF;
+}
+.hotel_section p {
+  margin-bottom: 142px;
+  margin-top: 45px;
+  color: #FFFFFF;
+}
+
+/* ---------------------- */
+
+.review_section {
+  padding-top: 44px;
+  padding-bottom: 53px;
+}
+.review_section h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+.review {
+  margin-right:30px;
+  width: 370px;
+}
+.review:last-child {
+  margin-right: 0;
+}
+.review img {
+  margin-bottom: 20px;
+}
+.review h4 {
+  margin-bottom: 10px;
+}
+
+/* ---------------------- */
+
+.theatre_section {
+  background: #F7F7F7 url("../img/circle.svg") no-repeat center;
+  padding: 35px 0;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.theatre_section h3 {
+  margin-bottom: 35px;
+}
+.theatre-line {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100px;
+  margin: auto;
+}
+.discount_list {
+  width: 370px;
+  margin: auto;
+}
+.discount_item {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.discount_item {
+  margin-bottom: 25px;
+}
+.discount_item h4 {
+  margin-bottom: 10px;
+}
+.discount_item p {
+  height: 63px;
+}
+
+.see_more {
+  background: #FF7931;
+  padding: 15px 60px 15px 30px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+}
+.see_more:hover {
+  background-color: #ff5100;
+}
+.see_more:after {
+  content: url("../img/see_more_arrow.svg");
+  width: 24px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 30px;
+  margin: auto;
+}
+footer{
+  background: #575757;
+  padding-top: 26px;
+  padding-bottom: 46px;
+  color: #FFFFFF;
+}
+.wrapper{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer h1 {
+  margin-bottom: 32px;
+}
+footer .menu {
+  margin-bottom: 45px;
+}
+.wrapper-line {
+  border: 1px solid #FFF;
+  margin-bottom: 42px;
+  width: 100%;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  width: 47px;
+  height: 47px;
+  background-color: white;
+  margin-right: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icon:last-child {
+  margin-right: 0;
+}
+.inst {
+  background-image: url(../img/instagram.svg);
+}
+.fb {
+  background-image: url(../img/fb.svg);
+}
+.tw {
+  background-image: url(../img/tw.svg);
+}
+
